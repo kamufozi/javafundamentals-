@@ -9,8 +9,16 @@ function great(a,b){
             arr.push(i);
         }
     }
-    console.log(arr);
+    // console.log(arr);
     let gcd=arr.reduce((acc,curr)=>acc*curr,1);
     return gcd;
 }
 console.log(great(24,18));
+function gcd(a,b){
+    let r,m=a,n=b;
+    while(b){
+        r=m/n;
+        m=b;
+        n
+    }
+}
